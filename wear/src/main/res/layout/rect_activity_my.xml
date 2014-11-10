@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primary_dark"
+    tools:context=".MyActivity"
+    android:padding="10dp"
+    tools:deviceIds="wear_square">
+
+
+    <ImageButton
+        android:id="@+id/img_button"
+        android:layout_width="@dimen/fab_size"
+        android:layout_height="@dimen/fab_size"
+        android:background="@drawable/round_button"
+        android:src="@drawable/ic_action_done"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="14dp"
+        android:layout_marginBottom="16dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/powered_by_google_dark"
+        android:layout_marginTop="21dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="press button for register"
+        android:textStyle="italic"
+        android:layout_marginTop="7dp"
+        android:layout_toStartOf="@+id/img_button"
+        android:layout_alignTop="@+id/img_button"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView6" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="What`s your name?"
+        android:textStyle="italic"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="GDG Androidtitlan"
+        android:textStyle="italic"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView6" />
+
+
+</RelativeLayout>
